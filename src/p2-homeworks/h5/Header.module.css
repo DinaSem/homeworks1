@@ -1,0 +1,53 @@
+.main {
+    text-decoration: none;
+    color: #fff;
+}
+.main:hover{
+    color: #000;
+}
+
+.panel {
+    position: relative;
+    left: -174px;
+    width: 300px;
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+}
+.panel .head {
+    float: right;
+    width: 20px;
+    background: #1abc9c;
+    height: 72px;
+    box-shadow: 0px 2px 10px 5px #1abc9c;
+}
+
+/*.panel_1 .head p {
+-ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -ms-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+    margin: 5px 20px;
+}*/
+
+.panel .content {
+    float: left;
+    width: 168px;
+    background: #1abc9c;
+    border: 3px inset #dfdfdf;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.panel:hover {
+    left: 0px;
+    z-index: 10;
+
+}

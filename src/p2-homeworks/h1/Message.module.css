@@ -1,0 +1,23 @@
+.main{
+margin: 0 auto;
+    display: flex;
+}
+.message {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 120px;
+    border-radius: 100px 100px 100px 10px;
+
+}
+.avatar img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 77px 20px;
+}
+.text{
+    margin: 20px 40px;
+    width: 150px;
+}
+
